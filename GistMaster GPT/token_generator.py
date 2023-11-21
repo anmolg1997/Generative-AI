@@ -4,7 +4,7 @@ import time
 import openai
 import streamlit as st
 
-openai.api_base = 'https://genai-api.uberinternal.com/v1'
+# openai.api_base = 'https://genai-api.uberinternal.com/v1'
 
 # Function to save the token to a file
 def save_token(token, file_path='token.txt'):
